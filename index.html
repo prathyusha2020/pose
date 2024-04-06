@@ -71,5 +71,17 @@
       </div>
     </div>
   </section>
+  <script src="/pose.js">
+  </script>
+  <script>
+   document.addEventListener("DOMContentLoaded",function(){
+    console.log("domcontentloaded")
+    let button=document.getElementById("webcamButton");
+    button.addEventListener("click",function(){
+    console.log("click")
+      window.main()
+    })
+   })
+  </script>
 </body>
 </html>
