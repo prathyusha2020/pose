@@ -10,7 +10,7 @@ const demosSection = document.getElementById("demos");
 let poseLandmarker: PoseLandmarker = undefined;
 let runningMode = "IMAGE";
 let enableWebcamButton: HTMLButtonElement;
-let webcamRunning: Boolean = false;
+let webcamRunning: Boolean = true;
 const videoHeight = "360px";
 const videoWidth = "480px";
 
